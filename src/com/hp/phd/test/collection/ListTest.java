@@ -41,7 +41,7 @@ public class ListTest extends Object{
 				break;
 			}
 		}
-		Iterator<Menu> it=menuList2.iterator();
+		Iterator<Menu> it=menuList2.iterator();//迭代器
 		while(it.hasNext()){
 			Menu menu5=it.next();
 			System.out.println(menu5.getIntroduction());
